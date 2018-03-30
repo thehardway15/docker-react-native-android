@@ -50,7 +50,7 @@ RUN dpkg --add-architecture i386 && \
 # ——————————
 
 ENV ANDROID_SDK_VERSION 3859397
-ENV ANDROID_BUILD_TOOLS_VERSION build-tools-27.0.1
+ENV ANDROID_BUILD_TOOLS_VERSION 27.0.1
 
 ENV ANDROID_SDK_FILENAME sdk-tools-linux-${ANDROID_SDK_VERSION}.zip
 ENV ANDROID_SDK_URL https://dl.google.com/android/repository/${ANDROID_SDK_FILENAME}
