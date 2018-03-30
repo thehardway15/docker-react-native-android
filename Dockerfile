@@ -54,7 +54,7 @@ ENV ANDROID_BUILD_TOOLS_VERSION build-tools-27.0.1
 
 ENV ANDROID_SDK_FILENAME sdk-tools-linux-${ANDROID_SDK_VERSION}.zip
 ENV ANDROID_SDK_URL https://dl.google.com/android/repository/${ANDROID_SDK_FILENAME}
-ENV ANDROID_API_LEVELS android-24
+ENV ANDROID_API_LEVELS android-26
 ENV ANDROID_HOME /opt/android-sdk-linux
 ENV PATH ${PATH}:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools/bin
 RUN cd /opt && \

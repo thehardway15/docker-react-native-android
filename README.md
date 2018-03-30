@@ -4,6 +4,7 @@ Docker image for building ReactNative APKs.
 Java8
 Android SDK 3859397
 Android Build Tools 27.0.1 
+Android API Level 26
 Gradle 2.4
 NodeJs 8.11.0
 
