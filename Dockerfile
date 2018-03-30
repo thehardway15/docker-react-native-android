@@ -62,7 +62,7 @@ RUN cd /opt && \
     unzip -q ${ANDROID_SDK_FILENAME} -d ${ANDROID_HOME} && \
     rm ${ANDROID_SDK_FILENAME} && \
     yes | sdkmanager --licenses && \
-    sdkmanager "platform-tools" "platforms;${ANDROID_API_LEVELS}"
+    sdkmanager "platform-tools" "platforms;${ANDROID_API_LEVELS}" "build-tools;${ANDROID_BUILD_TOOLS_VERSION}"
 
 # ——————————
 # Installs Gradle
